@@ -24,5 +24,5 @@ def main():
                 f.write("%d,%d,%d,%d,%d,%s,%d,%d,%f,%f,%f,%f\n"%(row['starttime'],row['endtime'],row['job id'],row['task id'],row['machine id'],row['status'],row['sequence number'],row['total sequence number'],row['max cpu'],row['avg cpu'],row['max memory'],row['avg memory']))
                 f.close()         
 
-if __name__== "_main_":
+if __name__== "__main__":
     main()
